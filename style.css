@@ -1,0 +1,48 @@
+.div1
+{
+	border-top : 1px solid black;
+	height: 100px;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+.div5
+{
+	border : 1px solid rgb(227,227,227);
+	height: 100px;
+	background-color: rgb(227,227,227);;
+}
+
+.flex
+{
+	display: flex;
+	
+}
+
+.flex div
+{
+	border: 1px solid rgb(210,210,210);
+	margin: 20px;
+	background-color: rgb(210,210,210);
+	height: 100px;
+	
+}
+
+.flex div:nth-child(1)
+{
+	flex-grow: 1;
+}
+
+.flex div:nth-child(2)
+{
+	flex-grow: 1;
+}
+
+.flex div:nth-child(3)
+{
+	flex-grow: 1;
+}
+
+
+

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+			<meta charset="UTF-8" />
+			<link rel="stylesheet" href="style.css" />
+			<title>TP météo HTML</title>
+			
+			
+			
+	</head>
+	<body>
+			
+			<div class="div1">
+			<h1>TP météo HTML</h1>
+			</div>
+			
+			<script src="meteo.js"></script>
+			
+			<label for="You Selected">Choisissez une Ville:</label>
+			<select onchange="showCity()" name="Villes" id="Ville">
+				<option value="">--Sélectionnez votre Ville--</option>
+				<option value="Villeurbanne">Villeurbanne</option>
+				<option value="Paris">Paris</option>
+				<option value="Marseille">Marseille</option>
+			</select>
+			
+	   
+			<div class="flex">
+			<div id="Villeurbanne" class="city" class="div2">
+			<h2>Villeurbanne</h2>
+			<p>5°, Pluie
+			<img src = "Villeurbanne.png" alt="Météo" title = "Eclaircies" /></p>
+			</div>
+			
+	 
+			<div id="Paris" class="city" class="div3">
+			<h2>Paris</h2>
+			<p>-1°, Nuageux
+			<img class="image1" src = "Paris.png" alt="Météo" title = "Nuageux" /></p>
+			</div>
+			
+			
+			<div id="Marseille" class="city" class="div4">
+			<h2>Marseille</h2>
+			<p>6°, Ensoleillé
+			<img src = "Marseille.png" alt="Météo" title = "Ensoleillé" /></p>
+			</div>
+			</div>
+	  
+			<div class="div5">
+			<p>Sall Djibril</p>
+			<p>Icones météo crées par 
+			<a href="https://thenounproject.com/linseedstudio/collection/weather/Nook" >Nook Fulloption</a></p>
+			</div>
+	 
+	</body>
+</html>
